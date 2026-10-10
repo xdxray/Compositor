@@ -70,7 +70,7 @@ struct FilterSheet: View {
                     .fixedSize(horizontal: false, vertical: true)
                 Picker("Quality", selection: Binding(get: { settings.backgroundQuality },
                                                      set: { new in update { $0.backgroundQuality = new } })) {
-                    ForEach(BackgroundQuality.allCases, id: \.self) { Text($0.rawValue).tag($0) }
+                    ForEach(BackgroundQuality.allCases, id: \.self) { Text(LocalizedStringKey($0.rawValue)).tag($0) }
                 }
                 .pickerStyle(.segmented).labelsHidden()
                 .help("Basic is quick; Advanced refines the mask against the layer's own detail, for hair and fur")
@@ -325,7 +325,7 @@ struct FilterSheet: View {
 
     /// A slider plus an exact field. Logarithmic sliders give the small values used most most of the travel.
     /// A colored track draws the slider as Camera Raw's, where a double-click on the title or knob resets it.
-    private func control(_ title: String, _ key: WritableKeyPath<FilterSettings, Double>, range: ClosedRange<Double>,
+    private func control(_ title: LocalizedStringKey, _ key: WritableKeyPath<FilterSettings, Double>, range: ClosedRange<Double>,
                          unit: String, decimals: Int, logarithmic: Bool, track: CameraRawSliderTrack? = nil) -> some View {
         let step = pow(10, Double(decimals))
         let reset = { update { $0 = Self.resetting(key, in: $0) } }
@@ -339,7 +339,7 @@ struct FilterSheet: View {
                             range: range)
             if let track {
                 CameraRawSlider(value: settings[keyPath: key], range: range, track: track,
-                                help: "\(title). Double-click to reset.",
+                                help: "Double-click to reset.",
                                 onChange: { value in update { $0[keyPath: key] = (value * step).rounded() / step } },
                                 onReset: reset)
             } else {

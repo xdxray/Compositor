@@ -1074,7 +1074,7 @@
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
-            "value": "数量"
+            "value": "强度"
           }
         }
       }
@@ -4496,6 +4496,523 @@
           "stringUnit": {
             "state": "translated",
             "value": "文字栏保留标准 macOS 编辑键。对话框共用上述的“应用/取消”分配。数字栏使用上/下方向键，按住 Shift 步长更大。标准 macOS 命令包括 ⌘Q 退出与 ⌃⌘F 全屏。快捷键编辑器本身在非录制时始终用 Return 保存、Esc 取消。"
+          }
+        }
+      }
+    },
+    "Exposure": {
+      "extractionState": "manual",
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "曝光"
+          }
+        }
+      }
+    },
+    "Offset": {
+      "extractionState": "manual",
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "偏移"
+          }
+        }
+      }
+    },
+    "Gamma": {
+      "extractionState": "manual",
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "伽马"
+          }
+        }
+      }
+    },
+    "Reds": {
+      "extractionState": "manual",
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "红色"
+          }
+        }
+      }
+    },
+    "Yellows": {
+      "extractionState": "manual",
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "黄色"
+          }
+        }
+      }
+    },
+    "Greens": {
+      "extractionState": "manual",
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "绿色"
+          }
+        }
+      }
+    },
+    "Cyans": {
+      "extractionState": "manual",
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "青色"
+          }
+        }
+      }
+    },
+    "Blues": {
+      "extractionState": "manual",
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "蓝色"
+          }
+        }
+      }
+    },
+    "Magentas": {
+      "extractionState": "manual",
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "洋红"
+          }
+        }
+      }
+    },
+    "Saturation": {
+      "extractionState": "manual",
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "饱和度"
+          }
+        }
+      }
+    },
+    "Cyan / Red": {
+      "extractionState": "manual",
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "青 / 红"
+          }
+        }
+      }
+    },
+    "Magenta / Green": {
+      "extractionState": "manual",
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "洋红 / 绿"
+          }
+        }
+      }
+    },
+    "Yellow / Blue": {
+      "extractionState": "manual",
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "黄 / 蓝"
+          }
+        }
+      }
+    },
+    "Roughness": {
+      "extractionState": "manual",
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "粗糙度"
+          }
+        }
+      }
+    },
+    "Refine": {
+      "extractionState": "manual",
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "优化"
+          }
+        }
+      }
+    },
+    "Contrast": {
+      "extractionState": "manual",
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "对比度"
+          }
+        }
+      }
+    },
+    "Shift Edge": {
+      "extractionState": "manual",
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "移动边缘"
+          }
+        }
+      }
+    },
+    "Angle": {
+      "extractionState": "manual",
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "角度"
+          }
+        }
+      }
+    },
+    "Distance": {
+      "extractionState": "manual",
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "距离"
+          }
+        }
+      }
+    },
+    "Midpoint": {
+      "extractionState": "manual",
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "中点"
+          }
+        }
+      }
+    },
+    "Roundness": {
+      "extractionState": "manual",
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "圆度"
+          }
+        }
+      }
+    },
+    "Pixel Size": {
+      "extractionState": "manual",
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "像素大小"
+          }
+        }
+      }
+    },
+    "Text Size": {
+      "extractionState": "manual",
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "文字大小"
+          }
+        }
+      }
+    },
+    "Cell Size": {
+      "extractionState": "manual",
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "单元大小"
+          }
+        }
+      }
+    },
+    "Tones": {
+      "extractionState": "manual",
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "色调数"
+          }
+        }
+      }
+    },
+    "Diffusion": {
+      "extractionState": "manual",
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "扩散"
+          }
+        }
+      }
+    },
+    "Density": {
+      "extractionState": "manual",
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "密度"
+          }
+        }
+      }
+    },
+    "Remove Distortion": {
+      "extractionState": "manual",
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "去除扭曲"
+          }
+        }
+      }
+    },
+    "Double-click to reset.": {
+      "extractionState": "manual",
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "双击以重置。"
+          }
+        }
+      }
+    },
+    "Last Filter": {
+      "extractionState": "manual",
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "上次滤镜"
+          }
+        }
+      }
+    },
+    "Basic": {
+      "extractionState": "manual",
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "基本"
+          }
+        }
+      }
+    },
+    "Advanced": {
+      "extractionState": "manual",
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "高级"
+          }
+        }
+      }
+    },
+    "Gaussian Blur": {
+      "extractionState": "manual",
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "高斯模糊"
+          }
+        }
+      }
+    },
+    "Motion Blur": {
+      "extractionState": "manual",
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "动感模糊"
+          }
+        }
+      }
+    },
+    "Add Noise": {
+      "extractionState": "manual",
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "添加杂色"
+          }
+        }
+      }
+    },
+    "Bloom / Glow": {
+      "extractionState": "manual",
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "泛光 / 发光"
+          }
+        }
+      }
+    },
+    "Dither": {
+      "extractionState": "manual",
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "抖动"
+          }
+        }
+      }
+    },
+    "Scanlines": {
+      "extractionState": "manual",
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "扫描线"
+          }
+        }
+      }
+    },
+    "Tonal Contrast": {
+      "extractionState": "manual",
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "色调对比度"
+          }
+        }
+      }
+    },
+    "Lens Correction": {
+      "extractionState": "manual",
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "镜头校正"
+          }
+        }
+      }
+    },
+    "Camera Raw Filter": {
+      "extractionState": "manual",
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Camera Raw 滤镜"
+          }
+        }
+      }
+    },
+    "Remove Background": {
+      "extractionState": "manual",
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "移除背景"
+          }
+        }
+      }
+    },
+    "Content-Aware Fill": {
+      "extractionState": "manual",
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "内容感知填充"
+          }
+        }
+      }
+    },
+    "Curves": {
+      "extractionState": "manual",
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "曲线"
+          }
+        }
+      }
+    },
+    "Gradient Map": {
+      "extractionState": "manual",
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "渐变映射"
+          }
+        }
+      }
+    },
+    "Black & White": {
+      "extractionState": "manual",
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "黑白"
+          }
+        }
+      }
+    },
+    "Color Balance": {
+      "extractionState": "manual",
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "色彩平衡"
           }
         }
       }

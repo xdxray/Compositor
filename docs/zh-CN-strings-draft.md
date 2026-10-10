@@ -1,25 +1,26 @@
-# 阶段二字符串草稿（A 类字面量）
+# 中文字符串对照表（A 类字面量 + B 类动态字符串）
 
-总 key 数：409　已译：409　待译：0
+总条目：456，已译：456，待译：0
 
-## 已译
-
-| 英文 | 中文 |
+| 英文 (key) | 中文 |
 |---|---|
 | # | # |
 | % | % |
 | 100% | 100% |
 | Actual Pixels | 实际像素 |
 | Actual pixels (⌘1) | 实际像素 (⌘1) |
+| Add Noise | 添加杂色 |
 | Add layer effect | 添加图层效果 |
 | Add layer mask | 添加图层蒙版 |
+| Advanced | 高级 |
 | Align  | 对齐 |
 | Aligned | 已对齐 |
 | All | 全部 |
 | All Layers | 所有图层 |
-| Amount | 数量 |
+| Amount | 强度 |
 | Analyze the active layer only, or every visible layer as shown | 仅分析当前图层，或如图所示分析每个可见图层 |
 | Anchor | 锚点 |
+| Angle | 角度 |
 | Anti-alias | 消除锯齿 |
 | Applies generic profile strength when camera metadata is not available. | 无相机元数据时应用通用配置文件的强度。 |
 | Apply | 应用 |
@@ -30,20 +31,26 @@
 | Auto balances the average color. Custom follows Temperature and Tint. | 自动平衡平均颜色；自定则跟随色温与色调。 |
 | Background | 背景 |
 | Based On | 基于 |
+| Basic | 基本 |
 | Basic is quick; Advanced refines the mask against the layer's own detail, for hair and fur | 基本模式较快；高级模式依据图层自身细节优化蒙版，适用于毛发 |
+| Black & White | 黑白 |
 | Black · Hide | 黑色 · 隐藏 |
 | Blend | 混合 |
 | Blend mode | 混合模式 |
 | Blend the chosen color into the edges while keeping the center unchanged | 将所选颜色融入边缘，同时保持中心不变 |
+| Bloom / Glow | 泛光 / 发光 |
 | Blue Primary | 蓝原色 |
+| Blues | 蓝色 |
 | Bottom | 底 |
 | Break the lines into beads where the picture is darker than this, blending into solid lines where it's brighter | 在图像比此更暗处将线条断开成珠状，在更亮处融合为实线 |
+| Camera Raw Filter | Camera Raw 滤镜 |
 | Cancel | 取消 |
 | Canvas | 画布 |
 | Canvas Size | 画布大小 |
 | Canvas Size… | 画布大小… |
 | Canvas extension | 画布扩展 |
 | Canvas text | 画布文字 |
+| Cell Size | 单元大小 |
 | Channel | 通道 |
 | Characters | 字符 |
 | Check for Updates… | 检查更新… |
@@ -64,6 +71,7 @@
 | Click to add a point. Drag to adjust. | 点击添加点。拖动以调整。 |
 | Close Project | 关闭项目 |
 | Color | 颜色 |
+| Color Balance | 色彩平衡 |
 | Color Overlay | 颜色叠加 |
 | Color Range… | 色彩范围… |
 | Color for the added canvas | 新增画布的颜色 |
@@ -73,10 +81,12 @@
 | Colors | 颜色 |
 | Component | 分量 |
 | Constrain Crop | 约束裁剪 |
+| Content-Aware Fill | 内容感知填充 |
 | Content-Aware Fill… | 内容感知填充… |
 | Contextual keys & mouse gestures | 上下文按键与鼠标手势 |
 | Contiguous | 连续 |
 | Contract… | 收缩… |
+| Contrast | 对比度 |
 | Copy | 拷贝 |
 | Copy Merged | 合并拷贝 |
 | Copy from the active layer only, or from every visible layer as shown | 仅从当前图层复制，或如图所示从每个可见图层复制 |
@@ -84,20 +94,28 @@
 | Crop | 裁剪 |
 | Crops empty edges after the transform and fits the result back into the frame. | 变换后裁掉空白边缘，并将结果适配回画框。 |
 | Curve | 曲线 |
+| Curves | 曲线 |
 | Curves… | 曲线… |
 | Custom | 自定 |
 | Cut | 剪切 |
+| Cyan / Red | 青 / 红 |
+| Cyans | 青色 |
 | Dark | 暗 |
 | Darker or lighter before the lines are drawn | 绘制线条前更暗或更亮 |
 | Default colors | 默认颜色 |
 | Default colors (D) | 默认颜色（D） |
 | Defringe | 去边 |
+| Density | 密度 |
 | Deselect | 取消选择 |
+| Diffusion | 扩散 |
 | Diffusion is soft and wide, Bloom is tighter, and Halation is a red fringe. | 扩散柔和而宽泛，泛光更紧致，光晕则是红色边缘。 |
 | Dims the picture outside this color's range. It is not kept when you press OK. | 使此颜色范围外的图像变暗。按“好”后不保留。 |
+| Distance | 距离 |
 | Distribution | 分布 |
+| Dither | 抖动 |
 | Document Bounds | 文档边界 |
 | Done | 完成 |
+| Double-click to reset. | 双击以重置。 |
 | Drag a color in the picture. Nearby color families move together. | 在图像上拖动一种颜色。邻近色系随之移动。 |
 | Drag inside the wheel. Angle sets hue, distance sets saturation. | 在色轮内拖动。角度设定色相，距离设定饱和度。 |
 | Drag on the layer to place a guide. Draw at least two lines. | 在图层上拖动以放置参考线。至少绘制两条线。 |
@@ -124,6 +142,7 @@
 | Export JPEG… | 导出 JPEG… |
 | Export PNG… | 导出 PNG… |
 | Export… | 导出… |
+| Exposure | 曝光 |
 | Extension color | 扩展颜色 |
 | Eyedropper | 吸管 |
 | Fade the edge of the selection by this many pixels | 将选区边缘羽化此像素数 |
@@ -148,12 +167,16 @@
 | Foreground color | 前景色 |
 | Format | 格式 |
 | Fuzziness | 容差 |
+| Gamma | 伽马 |
 | Gaussian | 高斯 |
+| Gaussian Blur | 高斯模糊 |
 | Glow | 发光 |
 | Gradient | 渐变 |
+| Gradient Map | 渐变映射 |
 | Grading | 分级 |
 | Grain | 颗粒 |
 | Green Primary | 绿原色 |
+| Greens | 绿色 |
 | Grid | 网格 |
 | Grid Settings… | 网格设置… |
 | Gridline every | 网格线间隔 |
@@ -203,12 +226,14 @@
 | Keeps this point fixed. Artwork is not scaled; cropped content remains outside the canvas. | 保持此点固定。作品不缩放；裁剪内容保留在画布之外。 |
 | Keyboard Shortcuts… | 键盘快捷键… |
 | Lasso | 套索 |
+| Last Filter | 上次滤镜 |
 | Layer | 图层 |
 | Layer effects | 图层效果 |
 | Layer's Pixels | 图层的像素 |
 | Layers | 图层 |
 | Leading | 行距 |
 | Left | 左 |
+| Lens Correction | 镜头校正 |
 | Levels… | 色阶… |
 | Lift the lines where the picture is bright, or lower them when negative, so they swell into its shapes | 在图像明亮处抬升线条，或为负时压低，使其鼓入图像形状 |
 | Light | 亮 |
@@ -226,6 +251,8 @@
 | Lock aspect ratio. Hold Shift while dragging a handle to turn it the other way. | 锁定宽高比。拖动控点时按住 Shift 可反向。 |
 | Lock original aspect ratio | 锁定原始宽高比 |
 | Low | 低 |
+| Magenta / Green | 洋红 / 绿 |
+| Magentas | 洋红 |
 | Make each dithered pixel this many pixels across, for a chunky old-screen look | 让每个抖动像素为此大小的方块，呈现粗犷的老屏幕质感 |
 | Make the lines waver sideways down the screen, like a CRT losing sync | 让线条沿屏幕向下左右摆动，如同 CRT 失去同步 |
 | Manual | 手动 |
@@ -233,11 +260,13 @@
 | Mask's Black Areas | 蒙版的黑色区域 |
 | Match the clicked pixel, or the average of the pixels around it | 匹配点击的像素，或其周围像素的平均值 |
 | Medium Contrast | 中等对比度 |
+| Midpoint | 中点 |
 | Midtones | 中间调 |
 | Mixer | 混合器 |
 | Mode | 模式 |
 | Monochromatic | 单色 |
 | More ink (darker) or less before dithering | 抖动前墨色更多（更暗）或更少 |
+| Motion Blur | 动感模糊 |
 | Move Layer Down | 下移图层 |
 | Move Layer Up | 上移图层 |
 | Move Out of Folder | 移出文件夹 |
@@ -261,6 +290,7 @@
 | Noise Reduction | 降噪 |
 | OK | 好 |
 | Off leaves the picture as it is. Guided straightens from lines you draw on the picture. | 关：保持图像原样。引导：根据你绘制的线条校正。 |
+| Offset | 偏移 |
 | Only print dimensions and resolution change. Pixels stay unchanged. | 仅打印尺寸与分辨率改变，像素保持不变。 |
 | Opacity | 不透明度 |
 | Open Project… | 打开项目… |
@@ -278,6 +308,7 @@
 | Perspective allows stronger keystone. Rectilinear keeps the warp gentler. | 透视允许更强的梯形畸变；直线则使扭曲更平缓。 |
 | Pixel Grid (800% and above) | 像素网格（800% 及以上） |
 | Pixel Shape | 像素形状 |
+| Pixel Size | 像素大小 |
 | Position | 位置 |
 | Positive straightens lines that bow outward (barrel); negative, lines that bow inward (pincushion). | 正值时校正外鼓的线条（桶形）；负值时校正内凹的线条（枕形）。 |
 | Positive values tighten the detected mask inward; negative values expand it outward | 正值使检测到的蒙版向内收紧；负值使其向外扩展 |
@@ -308,8 +339,12 @@
 | Red Primary | 红原色 |
 | Red, green, and blue of the pixel under the pointer. | 指针下像素的红、绿、蓝。 |
 | Redo | 重做 |
+| Reds | 红色 |
+| Refine | 优化 |
 | Relative to current dimensions | 相对于当前尺寸 |
+| Remove Background | 移除背景 |
 | Remove Chromatic Aberration | 去除色差 |
+| Remove Distortion | 去除扭曲 |
 | Remove every guide line. | 移除所有参考线。 |
 | Remove point | 移除点 |
 | Rename Layer… | 重命名图层… |
@@ -325,17 +360,21 @@
 | Right | 右 |
 | Rotate Canvas 90° Clockwise | 画布顺时针旋转 90° |
 | Rotate Canvas 90° Counterclockwise | 画布逆时针旋转 90° |
+| Roughness | 粗糙度 |
 | Round the rectangle's corners by this many pixels; 0 keeps them square | 将矩形圆角设为该像素值；0 为直角 |
+| Roundness | 圆度 |
 | Rulers | 标尺 |
 | Sample | 样本 |
 | Sample Ring | 取样环 |
 | Sample Size | 取样大小 |
 | Sampling | 取样 |
+| Saturation | 饱和度 |
 | Saturation and brightness | 饱和度与亮度 |
 | Save | 存储 |
 | Save As… | 存储为… |
 | Scale the export: the document stays as it is | 缩放导出：文档保持不变 |
 | Scale width and height together, about the center | 以中心为基准，同时缩放宽高 |
+| Scanlines | 扫描线 |
 | Search Commands… | 搜索命令… |
 | Select | 选择 |
 | Select a tool | 选择工具 |
@@ -347,6 +386,7 @@
 | Shape | 形状 |
 | Shapes fill with the foreground color; click to change it | 形状以前景色填充；点击可更改 |
 | Sharpening | 锐化 |
+| Shift Edge | 移动边缘 |
 | Shift-U (or Tab) steps through Rectangle, Ellipse and Line | Shift-U（或 Tab）在矩形、椭圆和直线间切换 |
 | Show | 显示 |
 | Show All | 全部显示 |
@@ -370,6 +410,7 @@
 | Targeted Adjustment | 目标调整 |
 | Targeted adjustment | 目标调整 |
 | Targeted adjustment: drag on the image to change that color's saturation, or its hue with Command held | 目标调整：在图像上拖动可改变该颜色的饱和度，按住 Command 则改变色相 |
+| Text Size | 文字大小 |
 | Text color | 文字颜色 |
 | Text fields keep standard macOS editing keys. Dialogs share the Apply/Cancel assignments above. Numeric fields use Up/Down, with Shift for larger steps. Standard macOS commands include ⌘Q to quit and ⌃⌘F for full screen. The shortcut editor itself always uses Return to save and Esc to cancel when not recording. | 文字栏保留标准 macOS 编辑键。对话框共用上述的“应用/取消”分配。数字栏使用上/下方向键，按住 Shift 步长更大。标准 macOS 命令包括 ⌘Q 退出与 ⌃⌘F 全屏。快捷键编辑器本身在非录制时始终用 Return 保存、Esc 取消。 |
 | The brush trails the pointer on a string this long, so a shaky hand still draws a smooth line | 画笔以该长度的牵引跟随指针，因此手抖也能画出平滑线条 |
@@ -380,6 +421,8 @@
 | Tint | 色调 |
 | Toggle Fullscreen | 切换全屏 |
 | Tolerance | 容差 |
+| Tonal Contrast | 色调对比度 |
+| Tones | 色调数 |
 | Tones per channel: 2 is pure black and white | 每通道色调数：2 为纯黑白 |
 | Top | 顶 |
 | Tracking | 字距 |
@@ -403,6 +446,8 @@
 | Width | 宽度 |
 | Width in pixels; the height follows, keeping the proportions | 宽度（像素）；高度随之等比变化 |
 | Working… | 处理中… |
+| Yellow / Blue | 黄 / 蓝 |
+| Yellows | 黄色 |
 | Zoom In | 放大 |
 | Zoom Out | 缩小 |
 | Zoom in (⌘+) | 放大（⌘+） |
@@ -415,6 +460,3 @@
 | sRGB · Transparent | sRGB · 透明 |
 | · | · |
 | × | × |
-
-## 待译
-

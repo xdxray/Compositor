@@ -273,8 +273,10 @@ struct CompositorApp: App {
                     Button("Hue/Saturation…") { session.beginHueSaturation() }
                         .configuredKeyboardShortcut("u").disabled(!session.canAdjustColors)
                     ForEach([FilterKind.blackWhite, .colorBalance, .exposure, .gradientMap, .grain], id: \.self) { kind in
-                        Button("\(kind.rawValue)…") { session.beginFilter(kind) }
-                            .disabled(!session.canAdjustColors || session.hueSaturation != nil)
+                        Button(action: { session.beginFilter(kind) }) {
+                            Text(LocalizedStringKey(kind.rawValue)) + Text("…")
+                        }
+                        .disabled(!session.canAdjustColors || session.hueSaturation != nil)
                     }
                     Button(session.isMaskSelected ? "Invert Mask" : "Invert") { Task { await session.invertPixels() } }
                         .configuredKeyboardShortcut("i")
@@ -301,15 +303,23 @@ struct CompositorApp: App {
                     }
                 }
                 CommandMenu("Filter") {
-                    Button(session.lastFilter.map { "Last Filter: " + $0.rawValue } ?? "Last Filter") {
+                    Button {
                         Task { await session.repeatLastFilter() }
+                    } label: {
+                        if let kind = session.lastFilter {
+                            Text(LocalizedStringKey("Last Filter")) + Text("：") + Text(LocalizedStringKey(kind.rawValue))
+                        } else {
+                            Text(LocalizedStringKey("Last Filter"))
+                        }
                     }
                         // ⌃⌘F, as in Photoshop; ⌘F is the command palette.
                         .configuredKeyboardShortcut("f", modifiers: [.command, .control]).disabled(!session.canRepeatLastFilter)
                     Divider()
                     ForEach(FilterKind.allCases.filter { $0 != .contentAwareFill && !$0.isImageAdjustment }, id: \.self) { kind in
-                        Button("\(kind.rawValue)…") { session.beginFilter(kind) }
-                            .disabled(!(kind == .vignette ? session.canVignette : session.canAdjustColors) || session.hueSaturation != nil)
+                        Button(action: { session.beginFilter(kind) }) {
+                            Text(LocalizedStringKey(kind.rawValue)) + Text("…")
+                        }
+                        .disabled(!(kind == .vignette ? session.canVignette : session.canAdjustColors) || session.hueSaturation != nil)
                     }
                 }
                 CommandMenu("Layer") {
