@@ -1,6 +1,6 @@
 # 阶段二字符串草稿（A 类字面量）
 
-总 key 数：409　已译：407　待译：2
+总 key 数：409　已译：409　待译：0
 
 ## 已译
 
@@ -266,6 +266,7 @@
 | Open Project… | 打开项目… |
 | Open Recent | 打开最近 |
 | Open project | 打开项目 |
+| Option temporarily selects the eyedropper in painting tools. Shift constrains shapes/movement or adds to a selection; Option subtracts from selections or draws from center. Command-drag moves selected pixels; Command-Option-drag copies them. Option-drag duplicates layers/folders/effects; Option-click at a layer boundary toggles clipping. Command-click a thumbnail loads its selection. Control bypasses snapping. Right-drag adjusts brush size. Modifier-and-mouse gestures are fixed. | Option 在绘画工具中临时选用吸管。Shift 约束形状/移动或添加到选区；Option 从选区减去或从中心绘制。Command-拖动移动所选像素；Command-Option-拖动复制它们。Option-拖动复制图层/文件夹/效果；Option-点击图层边界切换剪贴。Command-点击缩略图载入其选区。Control 绕过对齐。右键拖动调整画笔大小。修饰键与鼠标的组合是固定的。 |
 | Option-click to set the source | Option-点击以设定源 |
 | Outer Glow | 外发光 |
 | Outside | 外部 |
@@ -370,6 +371,7 @@
 | Targeted adjustment | 目标调整 |
 | Targeted adjustment: drag on the image to change that color's saturation, or its hue with Command held | 目标调整：在图像上拖动可改变该颜色的饱和度，按住 Command 则改变色相 |
 | Text color | 文字颜色 |
+| Text fields keep standard macOS editing keys. Dialogs share the Apply/Cancel assignments above. Numeric fields use Up/Down, with Shift for larger steps. Standard macOS commands include ⌘Q to quit and ⌃⌘F for full screen. The shortcut editor itself always uses Return to save and Esc to cancel when not recording. | 文字栏保留标准 macOS 编辑键。对话框共用上述的“应用/取消”分配。数字栏使用上/下方向键，按住 Shift 步长更大。标准 macOS 命令包括 ⌘Q 退出与 ⌃⌘F 全屏。快捷键编辑器本身在非录制时始终用 Return 保存、Esc 取消。 |
 | The brush trails the pointer on a string this long, so a shaky hand still draws a smooth line | 画笔以该长度的牵引跟随指针，因此手抖也能画出平滑线条 |
 | The characters to draw with, in any order: each spot gets the one whose ink best matches its tone | 用于绘制的字符，顺序任意：每个点取墨色最贴近其色调的那个字符 |
 | The height of each line of characters | 每行文字的高度 |
@@ -416,5 +418,3 @@
 
 ## 待译
 
-- Option temporarily selects the eyedropper in painting tools. Shift constrains shapes/movement or adds to a selection; Option subtracts from selections or draws from center. Command-drag moves selected pixels; Command-Option-drag copies them. Option-drag duplicates layers/folders/effects; Option-click at a layer boundary toggles clipping. Command-click a thumbnail loads its selection. Control bypasses snapping. Right-drag adjusts brush size. Modifier-and-mouse gestures are fixed.
-- Text fields keep standard macOS editing keys. Dialogs share the Apply/Cancel assignments above. Numeric fields use Up/Down, with Shift for larger steps. Standard macOS commands include ⌘Q to quit and ⌃⌘F for full screen. The shortcut editor itself always uses Return to save and Esc to cancel when not recording.
